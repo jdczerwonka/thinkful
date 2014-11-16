@@ -48,6 +48,7 @@ body{
 .content{
 	margin: 0 auto;
 	min-width: 37.5rem;
+	widows: 60%;
 	padding: 0 .938rem;
 }
 
@@ -93,7 +94,7 @@ body{
 
 /* Introduction Section */
 .introduction{
-	background-image: url('../images/first-background copy.jpg');
+	background-image: url('../images/first-background.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -139,4 +140,34 @@ body{
 	cursor: pointer;
 	background-color: #d9400e;
 	border-color: #cf3d0e;
+}
+/* Introduction Section End*/
+
+/* Case Section */
+
+.cases h2{
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+}
+
+.cases .content{
+	margin-top: 7.875rem;
+	padding: none;
+	color: #1d1e21;
+	text-align: center;
+}
+
+.cases .devices{
+	display: flex;
+}
+
+.cases .devices li{
+	width: 33.3333333%;
+	display: inline-block;
+}
+
+.cases .devices img{
+	height: 127px;
+	widows: 127px;
 }
