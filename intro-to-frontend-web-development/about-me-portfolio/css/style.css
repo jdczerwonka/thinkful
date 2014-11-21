@@ -60,12 +60,14 @@ body{
 .top-navigation .dropdown li{
     display: block;
     background: #3E2A04;
-    padding-top: .5em;
-    padding-bottom: .5em;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    font-weight: 300;
 }
 
 .top-navigation .dropdown li:hover{
     background: #5A4100;
+    font-weight: 800;
 }
 /* End of Navigation Section */
 
