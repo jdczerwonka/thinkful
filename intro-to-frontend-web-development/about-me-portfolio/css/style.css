@@ -55,6 +55,7 @@ body{
     display: none;
     padding-left: 0em;
     top: 3.675rem;
+    left: auto;
 }
 
 .top-navigation .dropdown li{

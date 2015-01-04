@@ -1,0 +1,92 @@
+body{
+	background-color: #6F97D3;
+	margin: 0em;
+	font-family: 'Handlee', cursive;
+}
+
+h1{
+	color: #FB5658;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	text-align: center;
+	font-size: 4em;
+}
+
+p{
+	display: inline;
+	padding-left: 1em;
+}
+
+.section-add{
+	text-align: center;
+}
+
+.tbInput{
+	background-color: #EEEBD5;
+	border-color: #6F97D3;
+	height: 1.25em;
+	font-size: 1.75em;
+	border-radius: .75em;
+	border-width: 0em;
+	padding-left: .5em;
+	padding-right: .5em;
+	font-family: 'Handlee', cursive;
+}
+
+.cmdAdd{
+	margin-left: 2em;
+	background-color: #6F97D3;
+	border-color: #FB5658;
+	color: #FB5658;
+	font-weight: bold;
+	height: 1.25em;
+	font-size: 1.75em;
+	width: 4em;
+	border-radius: 2em;
+	box-shadow: none;
+	font-family: 'Handlee', cursive;
+}
+
+.cmdAdd:hover{
+	cursor: pointer;
+	background-color: #A8BDD4;
+}
+
+.notebook{
+	max-width: 45em;
+	height: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('../images/notebook.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.notebook ul{
+	padding-left: 0em;
+	padding-top: 2em;
+}
+
+.notebook li{
+	list-style-type: none;
+	font-size: 2em;
+	line-height: 1.2em;
+	padding-left: 2.5em;
+}
+
+.notebook li:hover{
+	cursor: pointer;
+}
+
+.notebook li:hover > .delete{
+	visibility: visible;
+}
+
+.delete{
+	visibility: hidden;
+}
+
+.completed{
+	text-decoration: line-through;
+}
+
