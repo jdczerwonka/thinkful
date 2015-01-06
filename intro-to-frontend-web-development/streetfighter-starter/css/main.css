@@ -50,22 +50,22 @@ body {
   background-image: url('../images/ryu-throwing-hadouken.png');
 }
 
-p {
-	display: block;
-	-webkit-margin-before: 1em;
-	-webkit-margin-after: 1em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
+.text-content{
+	position: absolute;
+	left: 650px;
+	height: 425px;
+	width: 600px;
+	padding-top: 75px;
+}
+
+.how-to p{
 	font-family: comical;
-}
-
-.how-to p + p {
-	margin-left: 275px;
-}
-
-.how-to p {
 	width: 50%;
 	color: black;
 	font-size: 24px;
 	line-height: 45px;
+}
+
+.how-to p + p {
+	margin-left: 275px;
 }
